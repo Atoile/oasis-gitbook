@@ -18,6 +18,7 @@ POST https://api.oasiscatalog.com/v4/orders
         "phone": "+70000000000",
         "email": "order@example.com",
         "comment": "Test Order",
+        "params": {},
         "products": [
             {
                 "id": "1-000006979",
@@ -31,7 +32,8 @@ POST https://api.oasiscatalog.com/v4/orders
                         "placeId": "000000337",
                         "typeId": "1-000005194",
                         "substrate": false,
-                        "price": 228735
+                        "price": 228735,
+                        "comment": "текст для нанесения или ссылка на изображение"
                     },
                     {
                         "placeId": "000000337",
@@ -52,8 +54,9 @@ POST https://api.oasiscatalog.com/v4/orders
   * **phone** - телефон
   * **email** - электронная почта
   * **comment** - комментарий к заказу
+  * **params** - доп. информация для заказа
   * **products** - список продуктов в заказе
-    * **id** - ID продукта согласно каталогу Oasis
+  * * **id** - ID продукта согласно каталогу Oasis
     * **quantity** - количество для заказа с московского склада
     * **quantity\_europe** - количество для заказа с удаленного \(европейского\) склада
     * **branding** - список нанесений для текущего товара
@@ -61,6 +64,7 @@ POST https://api.oasiscatalog.com/v4/orders
       * **typeId** - ID вида нанесения
       * **substrate** - необходимость подложки для нанесения
       * **price** - стоимость нанесения
+      * **comment** - текст для нанесения или ссылка на изображение
 
 ## Пример ответа
 
