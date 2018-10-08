@@ -102,4 +102,5 @@ https://api.oasiscatalog.com/v4/products?format=json&limit=1
 * total\_stock - общее количество на всех складах
 * outlets - наличие товара на различных складах
 * videos - список ссылок на видео, описывающие товар
+* updated\_at - время обновления товара
 
