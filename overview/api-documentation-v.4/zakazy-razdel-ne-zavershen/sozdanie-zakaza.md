@@ -13,7 +13,6 @@ POST https://api.oasiscatalog.com/v4/orders
 ```text
 {
     "order": {
-        "user_id": "1-0003840",
         "name": "Иван Иванович",
         "phone": "+70000000000",
         "email": "order@example.com",
@@ -33,7 +32,8 @@ POST https://api.oasiscatalog.com/v4/orders
                         "typeId": "1-000005194",
                         "substrate": false,
                         "price": 228735,
-                        "comment": "текст для нанесения или ссылка на изображение"
+                        "logo": base64,
+                        "comment": "комментарий"
                     },
                     {
                         "placeId": "000000337",
@@ -49,7 +49,6 @@ POST https://api.oasiscatalog.com/v4/orders
 ```
 
 * **order** - название объекта который мы создаем \(заказ\)
-  * **user\_id** - ID пользователя, от которого создается заказ и которому начислять бонусы за заказ
   * **name** - имя пользователя, на которого регистрируется заказ
   * **phone** - телефон
   * **email** - электронная почта
@@ -64,7 +63,8 @@ POST https://api.oasiscatalog.com/v4/orders
       * **typeId** - ID вида нанесения
       * **substrate** - необходимость подложки для нанесения
       * **price** - стоимость нанесения
-      * **comment** - текст для нанесения или ссылка на изображение
+      * **logo** - base64 файла логотипа
+      * **comment** - комментарий
 
 ## Пример ответа
 

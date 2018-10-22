@@ -23,5 +23,5 @@ https://api.oasiscatalog.com/v3/products?page=5&category=1325&rating=3&expand=at
 
 ## Пример запроса
 
-## ![](../../../../.gitbook/assets/vigruzka_tovarov.png) {#пример}
+## ![](../../../../.gitbook/assets/vigruzka_tovarov.png) <a id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;"></a>
 

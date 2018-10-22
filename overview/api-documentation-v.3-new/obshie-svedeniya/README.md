@@ -14,14 +14,14 @@ API сайта Oasis позволяет получить данные в фор�
 * [Yandex](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/yandex.html)
 * [Нанесение](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/nanesenie.html)
 
-## Виды справочников {#виды-справочников}
+## Виды справочников <a id="&#x432;&#x438;&#x434;&#x44B;-&#x441;&#x43F;&#x440;&#x430;&#x432;&#x43E;&#x447;&#x43D;&#x438;&#x43A;&#x43E;&#x432;"></a>
 
 * [Справочники рубрик](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/spravochnik-rubrik.html)
 * [Справочники складов](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/spravochnik-skladov.html)
 * [Справочник групп скидок](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/spravochnik-grupp-skidok.html)
 * [Справочники брендов](https://oasiscatalog.gitbooks.io/api-oasis/content/api-documentation-v3/vigruzhaemaya-informatsiya/spravochnik-brendov.html)
 
-## Ключ работы с API {#ключ-работы-с-api}
+## Ключ работы с API <a id="&#x43A;&#x43B;&#x44E;&#x447;-&#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B;-&#x441;-api"></a>
 
 Для работы с API необходимо иметь ключ доступа.
 
